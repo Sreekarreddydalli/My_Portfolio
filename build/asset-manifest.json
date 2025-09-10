@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Sreekar_Portfolio/static/css/main.85320bdf.css",
+    "main.js": "/Sreekar_Portfolio/static/js/main.9de407ec.js",
+    "static/js/453.acca0757.chunk.js": "/Sreekar_Portfolio/static/js/453.acca0757.chunk.js",
+    "index.html": "/Sreekar_Portfolio/index.html",
+    "main.85320bdf.css.map": "/Sreekar_Portfolio/static/css/main.85320bdf.css.map",
+    "main.9de407ec.js.map": "/Sreekar_Portfolio/static/js/main.9de407ec.js.map",
+    "453.acca0757.chunk.js.map": "/Sreekar_Portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85320bdf.css",
+    "static/js/main.9de407ec.js"
+  ]
+}
