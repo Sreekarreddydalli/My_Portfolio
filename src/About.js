@@ -65,8 +65,7 @@ const About = () => {
         
       </div>
   <div className="experience-container">
- <h2>Position Of Responsibility in the world.
-  
+ <h2>Position Of Responsibility
  </h2>
  <div className="experience-content">
    <div className="experience-item">
