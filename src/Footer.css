@@ -1,0 +1,29 @@
+.footer {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text */
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 5rem;
+  }
+  
+  .footer-text {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #cccccc; /* Light gray text */
+    justify-content: center;
+    display: flex;
+    text-align:center;
+  }
+  
+  .footer-highlight {
+    color: #ffffff; /* White text for emphasis */
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .footer-highlight:hover {
+    color: #1a73e8; /* Blue on hover */
+  }

@@ -1,0 +1,214 @@
+/* About Page Container */
+.about-container {
+  scroll-margin-top: 80px; /* This line is new */
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+
+/* About Heading */
+/* filepath: c:\Users\Admin\OneDrive\Desktop\my-portfolio\src\About.css */
+.about-heading {
+  font-size: 2.5rem; /* Existing font size */
+  font-weight: bold; /* Existing font weight */
+  margin-bottom: 0px; /* Existing margin */
+  color: #fff; /* Existing color */
+  scroll-margin-top: 10px; /* Adjust this value to match your fixed navbar height */
+}
+/* Grid Layout */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 12px; /* Slightly increased spacing between columns */
+  align-items: stretch;
+  width: 80%; /* Slightly increased grid width */
+  max-width: 1000px; /* Slightly increased max width */
+  margin-bottom: 15px;
+}
+
+/* Left Section */
+.about-left {
+  background-color: #1a1a1a;
+  padding: 15px; /* Slightly increased padding */
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+
+.about-left h2 {
+  font-size: 1.4rem; /* Slightly increased font size */
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.about-left p {
+  font-size: 1rem; /* Slightly increased font size */
+  line-height: 1;
+  color: #ccc;
+}
+
+/* Right Section */
+.about-right {
+  background-color: #1a1a1a;
+  padding: 15px; /* Slightly increased padding */
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+
+.about-right h2 {
+  font-size: 1.4rem; /* Slightly increased font size */
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+/* Skills Container */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Increased spacing between skills */
+  justify-content: center;
+}
+
+.skill img {
+  width: 50px; /* Set equal width for all skill icons */
+  height: 50px; /* Set equal height for all skill icons */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.skill img:hover {
+  transform: scale(1.2); /* Slightly enlarge on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
+
+/* Remove background color for GitHub image */
+.skill img[alt="Git"] {
+  background-color: transparent; /* Remove background color */
+}
+/* Remove hover box shadow for GitHub image */
+.skill img[alt="Git"]:hover {
+  box-shadow: none; /* Remove box shadow on hover */
+}
+
+/* Experience Section */
+.experience-container {
+  width: 80%; /* Slightly increased width */
+  max-width: 1000px; /* Slightly increased max width */
+  margin-top: 3px;
+  background-color: #1a1a1a;
+  padding: 0px; /* Slightly increased padding */
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: #fff;
+}
+
+.experience-container h2 {
+  font-size: 1.5rem; /* Slightly increased font size */
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.experience-container h3 {
+  color: #4c8bf5;
+}
+
+.experience-content {
+  font-size: 1rem; /* Slightly increased font size */
+  line-height: 1.5;
+  color: #ccc;
+}
+
+/* Responsive Design */
+
+/* Tablet and below (up to 768px) */
+@media (max-width: 768px) {
+  .about-heading {
+    font-size: 1.8rem;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr; /* Stack columns vertically */
+    gap: 10px;
+  }
+
+  .about-left,
+  .about-right {
+    padding: 12px;
+  }
+
+  .about-left h2,
+  .about-right h2 {
+    font-size: 1.2rem;
+  }
+
+  .about-left p,
+  .experience-content {
+    font-size: 0.9rem;
+  }
+
+  .skill img {
+    width: 40px; /* Adjust icon size for smaller screens */
+    height: 40px;
+  }
+
+  .experience-container {
+    padding: 7px;
+  }
+
+  .experience-container h2 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Mobile and below (up to 480px) */
+@media (max-width: 480px) {
+  .about-heading {
+    font-size: 1.5rem;
+  }
+
+  .about-left,
+  .about-right {
+    padding: 10px;
+  }
+
+  .about-left h2,
+  .about-right h2 {
+    font-size: 1rem;
+  }
+
+  .about-left p,
+  .experience-content {
+    font-size: 0.8rem;
+  }
+
+  .skill img {
+    width: 30px; /* Adjust icon size for smaller screens */
+    height: 30px;
+  }
+
+  .experience-container {
+    padding: 10px;
+  }
+
+  .experience-container h2 {
+    font-size: 1.2rem;
+  }
+}
+
+.about-left h2,
+.about-right h2,
+.experience-container h2 {
+  font-size: 1.4rem; /* Slightly increased font size */
+  margin-top: 0; /* Removed space above the headings */
+  margin-bottom: 10px;
+  color: #fff;
+}

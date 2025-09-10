@@ -1,0 +1,26 @@
+.lightning-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Adjust the width to fit the desired area */
+  height: 100%; /* Keep the height full */
+  z-index: -1; /* Place it behind the content */
+  pointer-events: none; /* Prevent interaction with the lightning */
+}
+@keyframes lightning {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+/* Lightning Flash Animation */
+@keyframes lightning-flash {
+  0%, 100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+}

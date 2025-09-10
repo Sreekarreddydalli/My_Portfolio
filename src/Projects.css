@@ -1,0 +1,126 @@
+.projects-section {
+  padding: 2rem;
+  background-color: #000; /* Updated background color */
+  scroll-margin-top: 80px;
+  text-align: center;
+}
+
+.projects-title {
+  font-size: 2.5rem;
+  color: #fff; /* Updated text color */
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  background: #1a1a1a; /* Updated card background color */
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5); /* Updated shadow */
+  padding: 1rem;
+  position: relative;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  color: #fff; /* Updated text color */
+  margin-bottom: 0.5rem;
+}
+
+.project-description {
+  font-size: 1rem;
+  color: #ccc; /* Updated text color */
+  margin-bottom: 1rem;
+}
+
+.three-dots-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #4c8bf5; /* Updated button color */
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.three-dots-button:hover {
+  color: #357ae8; /* Updated hover color */
+}
+
+.project-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #1a1a1a; /* Updated modal background color */
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  text-align: left;
+  position: relative;
+  color: #fff; /* Updated text color */
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #fff; /* Updated button color */
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: #ff0000;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #4c8bf5; /* Updated link color */
+  font-weight: bold;
+}
+
+.project-link:hover {
+  color: #357ae8; /* Updated hover color */
+}
+
+.project-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.icon-link {
+  text-decoration: none;
+}
+
+.icon-image {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.icon-image:hover {
+  transform: scale(1.2);
+}
