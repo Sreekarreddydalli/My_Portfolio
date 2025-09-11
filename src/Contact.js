@@ -11,7 +11,7 @@ const Contact = () => {
           <div className="contact-form">
             <h2 className="contact-title">Get in touch</h2>
             <p className="contact-subtitle">
-              I would love to hear from you.
+              I would love to hear from you awayssdnasjdnsaj.
             </p>
             <form>
               <div className="form-group">
